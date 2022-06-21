@@ -10,4 +10,9 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
       - name: Imprimir mensaje
-        run: echo "Mi primer hola mundo CI / CD"
+        run: |
+          echo "Mi primer hola mundo CI / CD"
+
+      - name: Dime la fecha
+        run: date
+      - run: ls -l
